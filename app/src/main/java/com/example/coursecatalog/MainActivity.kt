@@ -15,6 +15,7 @@ import com.example.coursecatalog.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     // Hebbi er snillingur!
+    // Telma vera með
 
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
