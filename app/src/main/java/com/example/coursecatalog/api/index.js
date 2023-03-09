@@ -14,6 +14,12 @@ app.listen(HTTP_PORT, () => {
 // Root endpoint
 app.get("/", (req, res, next) => {
     res.json({"message":"Ok"})
+    // Engin tenging við appið
+    //Gera request á bakendann
+    // Ekki Volley, það er fyrir Java
+    // Finna Lib fyrir Kotlin
+    // OKDB? fyrirtæki með libraries
+    //
     // Hér þarf að gera eitthvað
     // eitthvað með db hlutinn, hann býr til base gagnagrunn (db.sqlite)
     // Telma skoða betur mögulega
